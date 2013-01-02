@@ -16,6 +16,7 @@
 		61D126D71694C1CC00998B86 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D126D61694C1CC00998B86 /* Default.png */; };
 		61D126D91694C1CC00998B86 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D126D81694C1CC00998B86 /* Default@2x.png */; };
 		61D126DB1694C1CC00998B86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D126DA1694C1CC00998B86 /* Default-568h@2x.png */; };
+		61EC496C1694C54E00673ECB /* www in Resources */ = {isa = PBXBuildFile; fileRef = 61EC496B1694C54E00673ECB /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		61D126D61694C1CC00998B86 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		61D126D81694C1CC00998B86 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		61D126DA1694C1CC00998B86 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		61EC496B1694C54E00673ECB /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		61D126B51694C1CC00998B86 = {
 			isa = PBXGroup;
 			children = (
+				61EC496B1694C54E00673ECB /* www */,
 				61D126CA1694C1CC00998B86 /* JSONBusSample */,
 				61D126C31694C1CC00998B86 /* Frameworks */,
 				61D126C11694C1CC00998B86 /* Products */,
@@ -154,6 +157,7 @@
 				61D126D71694C1CC00998B86 /* Default.png in Resources */,
 				61D126D91694C1CC00998B86 /* Default@2x.png in Resources */,
 				61D126DB1694C1CC00998B86 /* Default-568h@2x.png in Resources */,
+				61EC496C1694C54E00673ECB /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +241,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSONBusSample/JSONBusSample-Prefix.pch";
 				INFOPLIST_FILE = "JSONBusSample/JSONBusSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,6 +253,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSONBusSample/JSONBusSample-Prefix.pch";
 				INFOPLIST_FILE = "JSONBusSample/JSONBusSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

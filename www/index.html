@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<body>
+    <script>
+        function jsontest() {
+            document.write("<br/>jsontest");
+            var ifr = document.createElement("IFRAME");
+            ifr.setAttribute("src", 'jsonrequest:{"a":1}');
+            document.documentElement.appendChild(ifr);
+            ifr.parentNode.removeChild(ifr);
+            ifr = null;
+        }
+        function testcb(jsoncb) {
+            document.write("<br/>testcb: " + jsoncb);
+        }
+    </script>
+    <h1>test header</h1>
+    <i>test</i>
+    <script>
+    jsontest();
+    </script>
+</html>
