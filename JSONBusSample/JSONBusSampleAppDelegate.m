@@ -1,13 +1,13 @@
 //
-//  AppDelegate.m
+//  JSONBusSampleAppDelegate.m
 //  JSONBusSample
 //
 //  Created by Brodyspark on 1/2/13.
 //
 
-#import "AppDelegate.h"
+#import "JSONBusSampleAppDelegate.h"
 
-@implementation AppDelegate
+@implementation JSONBusSampleAppDelegate
 
 - (void)dealloc
 {

@@ -12,7 +12,7 @@
 		61D126C91694C1CC00998B86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D126C81694C1CC00998B86 /* CoreGraphics.framework */; };
 		61D126CF1694C1CC00998B86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61D126CD1694C1CC00998B86 /* InfoPlist.strings */; };
 		61D126D11694C1CC00998B86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D126D01694C1CC00998B86 /* main.m */; };
-		61D126D51694C1CC00998B86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D126D41694C1CC00998B86 /* AppDelegate.m */; };
+		61D126D51694C1CC00998B86 /* JSONBusSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D126D41694C1CC00998B86 /* JSONBusSampleAppDelegate.m */; };
 		61D126D71694C1CC00998B86 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D126D61694C1CC00998B86 /* Default.png */; };
 		61D126D91694C1CC00998B86 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D126D81694C1CC00998B86 /* Default@2x.png */; };
 		61D126DB1694C1CC00998B86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D126DA1694C1CC00998B86 /* Default-568h@2x.png */; };
@@ -27,8 +27,8 @@
 		61D126CE1694C1CC00998B86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61D126D01694C1CC00998B86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61D126D21694C1CC00998B86 /* JSONBusSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONBusSample-Prefix.pch"; sourceTree = "<group>"; };
-		61D126D31694C1CC00998B86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		61D126D41694C1CC00998B86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61D126D31694C1CC00998B86 /* JSONBusSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONBusSampleAppDelegate.h; sourceTree = "<group>"; };
+		61D126D41694C1CC00998B86 /* JSONBusSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONBusSampleAppDelegate.m; sourceTree = "<group>"; };
 		61D126D61694C1CC00998B86 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		61D126D81694C1CC00998B86 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		61D126DA1694C1CC00998B86 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 		61D126CA1694C1CC00998B86 /* JSONBusSample */ = {
 			isa = PBXGroup;
 			children = (
-				61D126D31694C1CC00998B86 /* AppDelegate.h */,
-				61D126D41694C1CC00998B86 /* AppDelegate.m */,
+				61D126D31694C1CC00998B86 /* JSONBusSampleAppDelegate.h */,
+				61D126D41694C1CC00998B86 /* JSONBusSampleAppDelegate.m */,
 				61D126CB1694C1CC00998B86 /* Supporting Files */,
 			);
 			path = JSONBusSample;
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61D126D11694C1CC00998B86 /* main.m in Sources */,
-				61D126D51694C1CC00998B86 /* AppDelegate.m in Sources */,
+				61D126D51694C1CC00998B86 /* JSONBusSampleAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +272,7 @@
 				61D126E01694C1CC00998B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
